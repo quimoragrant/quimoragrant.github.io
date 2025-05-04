@@ -1,0 +1,435 @@
+html {
+	--mobile-scale: 1.39;
+	--mobile-padding-offset: 0.31;
+}
+#site_menu {
+	font-family: "source-serif-4-display", serif;
+font-weight: 300;
+font-style: normal;
+	font-style: normal;
+	font-weight: 400;
+	padding: 20px 30px 90px 30px;
+	max-width: 400px;
+	min-width: 300px;
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+}
+@font-face {
+    font-family:"neue-haas-grotesk-display";
+    src:url("https://use.typekit.net/af/2724c2/00000000000000007735bb48/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/2724c2/00000000000000007735bb48/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/2724c2/00000000000000007735bb48/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+    }
+body.mobile #site_menu {
+	width: 100%;
+}
+@font-face {
+    font-family:"source-serif-4-display";
+    src:url("https://use.typekit.net/af/0d9b0c/00000000000000007735de75/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/0d9b0c/00000000000000007735de75/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/0d9b0c/00000000000000007735de75/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+    }
+
+#site_menu .page-link a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#site_menu .set-link > a {
+	color: rgba(255, 255, 255, 0.75);
+	font-weight: bold;
+}
+
+#site_menu a:active {
+	opacity: .7;
+}
+
+#site_menu a.active {
+	opacity: .4;
+}
+
+#site_menu .close {
+	display: none;
+	color: rgba(255, 255, 255, 0.4);
+	line-height: .85em;
+	font-size: 45px;
+}
+
+body.mobile #site_menu .close {
+	display: block;
+	font-size: 50px;
+	line-height: 1em;
+}
+
+#site_menu .break {
+	height: 28px;
+}
+
+#site_menu .indent {
+	margin-left: 28px;
+}
+
+body {
+	--swatch-1: rgba(0, 0, 0, 0.85);
+	--swatch-2: rgba(0, 0, 0, 0.75);
+	--swatch-3: rgba(0, 0, 0, 0.6);
+	--swatch-4: rgba(0, 0, 0, 0.4);
+    --swatch-5: rgba(0, 0, 0, 0.25);
+	background-color: #e4f5ff;
+}
+
+
+a:active,
+.linked:active,
+.zoomable::part(media):active {
+	opacity: 0.7;
+}
+
+.page a.active {
+	color: rgba(0, 0, 0, 0.4)
+}
+
+sub {
+	position: relative;
+	vertical-align: baseline;
+	top: 0.3em;
+}
+
+sup {
+	position: relative;
+	vertical-align: baseline;
+	top: -0.4em;
+}
+
+.small-caps {
+	font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+ol {
+	margin: 0;
+	padding: 0 0 0 2.5em;
+}
+
+ul {
+	margin: 0;
+	padding: 0 0 0 2.0em;
+}
+
+ul.lineated {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin: 0 0 0 3em;
+	text-indent: -3em;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0 0 0 2em;
+}
+
+hr {
+	background: rgba(0, 0, 0, 0.75);
+	border: 0;
+	height: 1px;
+	display: block;
+}
+
+.content {
+	border-color: rgba(0,0,0,.85);
+}
+
+h2 {
+	font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 300;
+font-style: normal;
+	color: rgba(0, 0, 0, 0.85);
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0;
+	display: block;
+}
+
+bodycopy a {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: "source-serif-4-display", serif;
+font-weight: 300;
+font-style: normal;
+	margin: 0;
+	font-size: 4rem;
+	line-height: 1;
+	color: rgba(255, 62, 62, 0.85);
+	letter-spacing: 0;
+}
+
+.mobile h1 {
+	font-size: 3.4rem;
+}
+
+h1 a {
+	color: rgba(255, 62, 62, 0.85);
+	text-decoration: none;
+}
+
+h1 a:hover {
+}
+
+h2 {
+	font-family: "source-serif-4-display", serif;
+font-weight: 400;
+font-style: normal;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 1rem;
+	line-height: 1.2;
+	letter-spacing: 0em;
+	font-variation-settings: 'slnt' 0, 'MONO' 0;
+}
+
+h2 a {
+	color: rgba(0, 0, 0, 0.75);
+	text-decoration: none;
+}
+
+
+.caption {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.4);
+	font-family: "Neue Haas Grotesk";
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: 0;
+	display: block;
+}
+
+.caption a {
+	color: rgba(0, 0, 0, 0.4);
+	text-decoration: underline;
+}
+
+media-item .caption {
+	margin-top: .5em;
+}
+
+gallery-grid .caption,
+gallery-columnized .caption,
+gallery-justify .caption {
+	margin-bottom: 2em;
+}
+
+[thumbnail-index] .caption {
+	text-align: center;
+}
+
+[thumbnail-index] .caption .tags {
+	margin-top: 0.25em;
+}
+
+.page {
+	justify-content: flex-start;
+}
+
+.page-content {
+	padding: 3rem;
+	text-align: left;
+}
+
+.mobile [id] .page-layout {
+	max-width: 100%;
+}
+
+.page-layout {
+	align-items: flex-start;
+	max-width: 100%;
+}
+
+media-item::part(media) {
+	border-radius: 1.5rem;
+	border: 0;
+	padding: 0;
+}
+
+.quick-view {
+	height: 100%;
+	width: 100%;
+	padding: 3rem;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.quick-view-background {
+	background-color: #ffffff;
+}
+
+.quick-view .caption {
+	color: rgba(255, 255, 255, 1.0);
+	padding: 20px 0;
+	text-align: center;
+	transition: 100ms opacity ease-in-out;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.quick-view .caption-background {
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: .5rem;
+	text-align: left;
+	max-width: 50rem;
+}
+
+.mobile .quick-view {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px;
+}
+
+.mobile .quick-view .caption {
+	padding: 10px 0;
+}
+
+.button-4 {
+	--text-style: "button 4";
+	font-size: 1.7rem;
+	font-weight: 350;
+	font-family: "Gramercy Display Variable";
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0;
+	font-variation-settings: 'opsz' 72;
+	color: #000000;
+	display: inline-block;
+	border-color: rgba(0, 0, 0, 0.85);
+	border-style: solid;
+	border-radius: 999rem;
+	padding-top: 0.6rem;
+	padding-right: 1.4rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1.3rem;
+	border-width: 0.2rem;
+}
+
+.button-4 a {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+
+.button-4 a.active {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+.button-4-1 {
+	--text-style: "button 4-1";
+	font-size: 1.7rem;
+	font-weight: 350;
+	font-family: "Gramercy Display Variable";
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0;
+	font-variation-settings: 'opsz' 72;
+	color: #000000;
+	display: inline-block;
+	border-color: rgba(0, 0, 0, 0.85);
+	border-style: solid;
+	border-radius: 999rem;
+	padding-top: 0.6rem;
+	padding-right: 1.4rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1.3rem;
+	border-width: 0.2rem;
+}
+
+.button-4-1 a {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+.button-4-1 a:hover {
+	
+}
+
+.button-4-1 a.active {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+.button-4-2 {
+	--text-style: "button 4-2";
+	font-size: 1.7rem;
+	font-weight: 350;
+	font-family: "Gramercy Display Variable";
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0;
+	font-variation-settings: 'opsz' 72;
+	color: #000000;
+	display: inline-block;
+	border-color: rgba(0, 0, 0, 0.85);
+	border-style: solid;
+	border-radius: 999rem;
+	padding-top: 0.6rem;
+	padding-right: 1.4rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1.3rem;
+	border-width: 0.2rem;
+}
+
+.button-4-2 a {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+.button-4-2 a:hover {
+	
+}
+
+.button-4-2 a.active {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+}
+
+.mobile .quick-view .caption-background {
+	max-width: 100vw;
+}
+
+::part(slideshow-nav) {
+	--button-size: 30px;
+	--button-inset: 20px;
+	--button-icon-color: rgba(255, 255, 255, 0.9);
+	--button-icon-stroke-width: 1.5px;
+	--button-icon-stroke-linecap: none;
+	--button-background-color: rgba(87, 87, 87, 0.35);
+	--button-background-radius: 50%;
+	--button-active-opacity: 0.7;
+}
+
+gallery-slideshow::part(slideshow-nav) {
+	--button-inset: 15px;
+}
+
+.quick-view::part(slideshow-nav) {
+}
+
+.wallpaper-slideshow::part(slideshow-nav) {
+}
+
+.mobile ::part(slideshow-nav) {
+	--button-inset: 10px;
+}
+
+.mobile .quick-view::part(slideshow-nav) {
+	--button-inset: 25px;
+}
